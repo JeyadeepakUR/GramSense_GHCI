@@ -1,4 +1,4 @@
-# Module 7: Dashboard + Backend API – Junior Developer Usage Guide
+# Module 7: Dashboard + Backend API – Developer Usage Guide
 
 ## 🎯 Your Responsibilities
 
@@ -563,5 +563,3 @@ git push origin feature/module7-dashboard-api
 - `docs/examples/backend_route_wrapper_example.py` – Backend examples
 
 ---
-
-**Remember**: You own the presentation layer (UI + routes), the owner owns the logic (core + services). Keep them separate! 🎨
