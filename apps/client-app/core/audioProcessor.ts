@@ -2,7 +2,7 @@
 // Owner-implemented. UI should call processAudio() from src via import.
 // ⚠️ DO NOT MODIFY THIS FILE - Owner-only code
 
-import { PCMInput, ProcessedAudio } from "./types";
+import type { PCMInput, ProcessedAudio } from "./types";
 
 /**
  * Normalize input PCM to mono Float32Array and compute basic metadata.

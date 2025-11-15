@@ -1,0 +1,26 @@
+# ASR Engine Requirements
+# Owner-only dependencies for Whisper Tiny inference
+
+# Core inference
+onnxruntime>=1.16.0        # ONNX Runtime for model inference
+numpy>=1.24.0              # Numerical operations
+
+# Quantization support
+onnxruntime-tools>=1.16.0  # Model quantization utilities
+
+# Audio processing
+scipy>=1.11.0              # Signal processing for mel spectrograms
+librosa>=0.10.0            # Audio analysis (optional, for advanced features)
+
+# Model download/conversion (optional, only needed for model setup)
+transformers>=4.35.0       # Hugging Face transformers (for conversion)
+torch>=2.1.0               # PyTorch (for conversion)
+optimum[exporters]>=1.14.0 # ONNX export utilities
+requests>=2.31.0           # HTTP downloads
+tqdm>=4.66.0               # Progress bars
+
+# Tokenization
+tiktoken>=0.5.0            # Fast BPE tokenizer for Whisper
+
+# Performance monitoring
+psutil>=5.9.0              # Resource monitoring
