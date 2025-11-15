@@ -92,6 +92,13 @@ out/
 **/models/*.tflite
 **/models/*.safetensors
 
+# Model caches and blobs (Hugging Face transformers cache)
+**/.cache/
+**/models/.cache/
+**/models/**/blobs/
+**/models/models--*/
+**/models/**/snapshots/
+
 # Model metadata (keep config, exclude binaries)
 !**/models/*.json
 !**/models/*.yaml
